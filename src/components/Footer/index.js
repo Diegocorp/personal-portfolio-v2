@@ -8,11 +8,12 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Diego Sandoval</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+            I am a Full-Stack developer from Sonora, Mexico. I 
+            create professional web and desktop applications. I 
+            love to find solutions to current problems using the
+             latest technological trends.
           </PText>
         </div>
         <div className="footer__col2">
@@ -47,15 +48,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
+                title: '(+52) 638-384-1821',
                 link: 'tel:+88012312',
               },
               {
-                title: 'webcifar@gmail.com',
-                link: 'mailto:webcifar@gmail.com',
+                title: 'diegosandovalr.corp@gmail.com',
+                link: 'mailto:diegosandovalr.corp@gmail.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: 'Rocky Point, Sonora, Mexico',
                 link: 'http://google.com/maps',
               },
             ]}
@@ -84,10 +85,7 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
-            </a>{' '}
+            © 2021 - Diego Sandoval
           </PText>
         </div>
       </div>

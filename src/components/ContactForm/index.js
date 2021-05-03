@@ -24,7 +24,7 @@ export default function ContactForm() {
         </div>
         <div className="form-group">
           <label htmlFor="email">
-            Your Name
+            Your email
             <input
               type="email"
               id="email"

@@ -16,9 +16,9 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            I am a freelance website designer and developer from Sonora,
-            Mexico. I create professional websites. I love art and always
-            try to show unique views to the audience through my design.
+            I am a Full-Stack developer from Sonora, Mexico. I create professional
+            web and desktop applications. I love to find solutions to current problems
+            using the latest technological trends.          
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />

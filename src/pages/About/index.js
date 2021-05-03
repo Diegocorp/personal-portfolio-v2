@@ -15,26 +15,25 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
+                Hi, I am <span>Diego Sandoval</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">A Full-Stack developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                I'm from Sonora, Mexico. Graduated with a degree in systems engineering.
+                 Since I started my professional journey as a software developer 2 years
+                  ago, I've done remote work for agencies, consulting for startups, and 
+                  I've collaborated with talented people to create digital products for 
+                  both business and consumer. 
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
+                  I am a self-confident, curious by nature, self-taught and always working 
+                  to improve my skills, learn new technologies, and eager to work with new 
+                  talented developers.
                   <br />
                   <br />
-                  My vision is to make the world a better place. Now almost
-                  everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place.
+                  I am passionate about finding new ways to solve current needs, using the
+                   tools that new technologies provide us to face the new challenges that 
+                   we face in the future.
                 </PText>
               </div>
               <Button btnText="Download CV" btnLink="#" />
@@ -45,19 +44,18 @@ export default function About() {
           </div>
           <div className="about__info__items">
             <div className="about__info__item">
-              <h1 className="about__info__heading">Education</h1>
-
+              <h1 className="about__info__heading">Experiences</h1>
               <AboutInfoItems
-                title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                title="2020-2021"
+                items={['Full-Stack developer at GOintegro']}
               />
               <AboutInfoItems
-                title="Collage"
-                items={['BAF Shaheen College Chattogram']}
+                title="2019-2021"
+                items={['Back-End developer at Black Mamba, CORP. ']}
               />
               <AboutInfoItems
-                title="Varsity"
-                items={['University Of Chitiagong']}
+                title="2019-2020"
+                items={['Full-Stack developer at Gometa, INC. withkoji.com']}
               />
             </div>
             <div className="about__info__item">
@@ -65,31 +63,26 @@ export default function About() {
 
               <AboutInfoItems
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                items={['HTML', 'CSS', 'JavaScript', 'REACT', 'ELECTRON']}
               />
               <AboutInfoItems
                 title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
+                items={['Node', 'Express', 'Java', 'C#', 'Ruby', 'C++']}
               />
               <AboutInfoItems
                 title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
+                items={['Figma', 'Rive']}
               />
             </div>
             <div className="about__info__item">
-              <h1 className="about__info__heading">Experiences</h1>
-
+              <h1 className="about__info__heading">Education</h1>
               <AboutInfoItems
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
+                title="University"
+                items={['Higher Technological Institute of Puerto Peñasco']}
               />
               <AboutInfoItems
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
-              />
-              <AboutInfoItems
-                title="2016-"
-                items={['Freelance web Developer']}
+                title="High School"
+                items={['COBACH. High School, Puerto Peñasco']}
               />
             </div>
           </div>
