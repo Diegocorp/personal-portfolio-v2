@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const NavStyles = styled.nav`
   position: fixed;
@@ -18,12 +18,12 @@ export const NavStyles = styled.nav`
       border-radius: 8px;
       transition: 0.3s ease background-color;
       &:hover {
-        background-color: var(--deep-dark);
+        background-color: black;
       }
     }
     a {
       display: inline-block;
-      font-family: 'RobotoMono Regular';
+      font-family: "RobotoMono Regular";
       padding: 1rem 2rem;
       font-size: 2rem;
       color: var(--gray-1);
@@ -59,7 +59,7 @@ export const NavStyles = styled.nav`
     .navItems {
       --top: 1rem;
       transition: 0.3s ease transform;
-      background-color: var(--deep-dark);
+      background-color: black;
       padding: 2rem;
       width: 90%;
       max-width: 300px;
